@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog Site</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ 
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <style>
+
+        .owl-carousel.owl-loaded {
+            display: block;
+            position: relative;
+        }
+        .owl-carousel .owl-item {
+            margin: auto;
+        }
+        .owl-theme .owl-nav {
+            margin-top: 10px;
+            position: absolute;
+            bottom: 50%;
+            width: 100%;
+        }
+        .owl-theme .owl-nav .owl-prev{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            left: 0;
+        }
+        .owl-theme .owl-nav .owl-next{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            right: 0;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="hero">
+        <div class="navbar">
+
+        </div>
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="./assets/images/item1.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="./assets/images/item2.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="./assets/images/item3.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="./assets/images/item5.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="./assets/images/item2.jpg"></a>
+        </div>
+    
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('.carousel');
+                var instances = M.Carousel.init(elems, {
+                    edge: 'left',
+                    draggable: true,
+                    inDuration: 250,
+                    outDuration: 200,
+                    onOpenStart: null,
+                    onOpenEnd: null,
+                    onCloseStart: null,
+                    onCloseEnd: null,
+                    preventScrolling: true
+                });
+            });
+        </script>
+        <div class="bubbles">
+            <div class="bubbles1">
+                <img src="./assets/images/bubble.png" alt="">
+                <h5>Nhung</h5>
+            </div>
+            <div class="bubbles2">
+                <img src="./assets/images/bubble.png" alt="">
+                <h5>An</h5>
+            </div>
+            <div class="bubbles3">
+                <img src="./assets/images/bubble.png" alt="">
+                <h5>Cuc</h5>
+            </div>
+            <div class="bubbles4">
+                <img src="./assets/images/bubble.png" alt="">
+                <h5>Bo`</h5>
+            </div>
+            <div class="bubbles5">
+                <img src="./assets/images/bubble.png" alt="">
+                <h5>Ahihi</h5>
+            </div>
+            <div class="bubbles6">
+                <img src="./assets/images/bubble.png" alt="">
+                <h5>Do`</h5>
+            </div>
+            <div class="bubbles7">
+                <img src="./assets/images/bubble.png" alt="">
+                <h5>Ngok</h5>
+            </div>
+            <div class="bubbles8">
+                <img src="./assets/images/bubble.png" alt="">
+                <h5> :))) </h5>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./assets/css/owl.carousel.min.js" type="text/javascript" charset="utf-8"></script>
+    
+</body>
+
+</html>
